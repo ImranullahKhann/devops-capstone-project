@@ -1,6 +1,6 @@
 ---
-name: ISSUE_TEMPLATE
-about: It is to raise an issue or add a feature
+name: user-story
+about: It is to add a user story
 title: ''
 labels: ''
 assignees: ''
