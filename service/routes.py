@@ -51,7 +51,8 @@ def create_accounts():
     account.create()
     message = account.serialize()
     # Uncomment once get_accounts has been implemented
-    location_url = url_for("get_accounts", account_id=account.id, _external=True)
+    # location_url = url_for("get_accounts", account_id=account.id, _external=True)
+    location_url = "/"
     return make_response(
         jsonify(message), status.HTTP_201_CREATED, {"Location": location_url}
     )
